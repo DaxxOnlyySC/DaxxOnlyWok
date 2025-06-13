@@ -1,0 +1,1731 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable>
+  <CheatEntries>
+    <CheatEntry>
+      <ID>1807618416</ID>
+      <Description>"/&lt;Auto Đàn&gt;\"</Description>
+      <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+      <Color>FFFFFF</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>{$lua}
+[ENABLE]
+
+[DISABLE]
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>1807618417</ID>
+          <Description>"✫List Songs"</Description>
+          <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <Color>FFFFFF</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>{$lua}
+[ENABLE]
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+[DISABLE]
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>1807618422</ID>
+              <Description>"Case Closed - Detective Conan"</Description>
+              <Color>FFFFFF</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$Lua}
+[ENABLE]
+       doKeyPress(65)
+doKeyPress(49)
+       doKeyPress(77)
+doKeyPress(49)
+       doKeyPress(78)
+doKeyPress(49)
+       doKeyPress(68)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+
+
+
+       doKeyPress(65)
+doKeyPress(49)
+       doKeyPress(78)
+doKeyPress(49)
+       doKeyPress(77)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(68)
+doKeyPress(49)
+       doKeyPress(83)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+
+       doKeyPress(65)
+doKeyPress(49)
+       doKeyPress(83)
+doKeyPress(49)
+       doKeyPress(65)
+doKeyPress(49)
+       doKeyPress(83)
+doKeyPress(49)
+       doKeyPress(68)
+doKeyPress(49)
+       doKeyPress(68)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+
+       doKeyPress(65)
+doKeyPress(49)
+       doKeyPress(77)
+doKeyPress(49)
+       doKeyPress(78)
+doKeyPress(49)
+       doKeyPress(83)
+doKeyPress(49)
+       doKeyPress(65)
+doKeyPress(49)
+       doKeyPress(77)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+
+
+
+       doKeyPress(78)
+doKeyPress(49)
+       doKeyPress(77)
+doKeyPress(49)
+       doKeyPress(65)
+doKeyPress(49)
+       doKeyPress(77)
+doKeyPress(49)
+       doKeyPress(78)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+
+       doKeyPress(68)
+doKeyPress(49)
+       doKeyPress(83)
+doKeyPress(49)
+       doKeyPress(65)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+
+       doKeyPress(83)
+doKeyPress(49)
+doKeyPress(49)
+
+       doKeyPress(72)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(83)
+doKeyPress(49)
+       doKeyPress(68)
+
+
+
+[DISABLE]
+
+
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1807618423</ID>
+              <Description>"Star Sky"</Description>
+              <Color>FFFFFF</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$Lua}
+[ENABLE]
+       doKeyPress(87)
+doKeyPress(49)
+
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(70)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(81)
+doKeyPress(49)
+
+       doKeyPress(87)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(70)
+doKeyPress(49)
+
+       doKeyPress(70)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(81)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(70)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(68)
+doKeyPress(49)
+
+       doKeyPress(70)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(81)
+doKeyPress(49)
+
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(82)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(70)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(69)
+doKeyPress(49)
+
+       doKeyPress(81)
+doKeyPress(49)
+
+
+
+
+
+
+       doKeyPress(87)
+doKeyPress(49)
+
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(70)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(81)
+doKeyPress(49)
+
+       doKeyPress(87)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(70)
+doKeyPress(49)
+
+       doKeyPress(70)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(81)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(70)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(68)
+doKeyPress(49)
+
+       doKeyPress(70)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(81)
+doKeyPress(49)
+
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(82)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(70)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(69)
+doKeyPress(49)
+
+       doKeyPress(81)
+doKeyPress(49)
+
+       doKeyPress(87)
+doKeyPress(49)
+
+
+[DISABLE]
+
+
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1807618424</ID>
+              <Description>"Way Back Home"</Description>
+              <Color>FFFFFF</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$Lua}
+[ENABLE]
+        doKeyPress(65)
+doKeyPress(49)
+        doKeyPress(65)
+doKeyPress(49)
+        doKeyPress(65)
+doKeyPress(49)
+doKeyPress(49)
+        doKeyPress(72)
+doKeyPress(49)
+        doKeyPress(71)
+doKeyPress(49)
+doKeyPress(49)
+        doKeyPress(65)
+doKeyPress(49)
+        doKeyPress(68)
+doKeyPress(49)
+        doKeyPress(83)
+doKeyPress(49)
+        doKeyPress(83)
+doKeyPress(49)
+        doKeyPress(83)
+doKeyPress(49)
+        doKeyPress(65)
+doKeyPress(49)
+        doKeyPress(68)
+doKeyPress(49)
+doKeyPress(49)
+        doKeyPress(65)
+doKeyPress(49)
+        doKeyPress(65)
+doKeyPress(49)
+        doKeyPress(65)
+
+doKeyPress(49)
+
+        doKeyPress(72)
+doKeyPress(49)
+        doKeyPress(71)
+doKeyPress(49)
+doKeyPress(49)
+        doKeyPress(65)
+doKeyPress(49)
+        doKeyPress(68)
+doKeyPress(49)
+        doKeyPress(83)
+doKeyPress(49)
+        doKeyPress(83)
+doKeyPress(49)
+        doKeyPress(83)
+doKeyPress(49)
+        doKeyPress(65)
+doKeyPress(49)
+        doKeyPress(65)
+doKeyPress(49)
+        doKeyPress(72)
+doKeyPress(49)
+        doKeyPress(74)
+doKeyPress(49)
+        doKeyPress(81)
+doKeyPress(49)
+        doKeyPress(81)
+doKeyPress(49)
+        doKeyPress(81)
+doKeyPress(49)
+        doKeyPress(69)
+doKeyPress(49)
+        doKeyPress(72)
+doKeyPress(49)
+        doKeyPress(71)
+doKeyPress(49)
+        doKeyPress(83)
+doKeyPress(49)
+        doKeyPress(83)
+doKeyPress(49)
+        doKeyPress(83)
+doKeyPress(49)
+        doKeyPress(71)
+doKeyPress(49)
+        doKeyPress(68)
+doKeyPress(49)
+        doKeyPress(65)
+doKeyPress(49)
+        doKeyPress(65)
+doKeyPress(49)
+        doKeyPress(65)
+doKeyPress(49)
+        doKeyPress(72)
+doKeyPress(49)
+        doKeyPress(71)
+doKeyPress(49)
+        doKeyPress(65)
+doKeyPress(49)
+        doKeyPress(68)
+doKeyPress(49)
+        doKeyPress(83)
+doKeyPress(49)
+        doKeyPress(83)
+doKeyPress(49)
+        doKeyPress(83)
+doKeyPress(49)
+        doKeyPress(65)
+doKeyPress(49)
+        doKeyPress(65)
+
+[DISABLE]
+
+
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1807618425</ID>
+              <Description>"Ngây Thơ"</Description>
+              <Color>FFFFFF</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$Lua}
+[ENABLE]
+        doKeyPress(72)
+doKeyPress(49)
+        doKeyPress(72)
+doKeyPress(49)
+        doKeyPress(74)
+doKeyPress(49)
+        doKeyPress(74)
+doKeyPress(49)
+        doKeyPress(81)
+doKeyPress(49)
+        doKeyPress(81)
+doKeyPress(49)
+
+        doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+        doKeyPress(72)
+doKeyPress(49)
+        doKeyPress(74)
+doKeyPress(49)
+        doKeyPress(74)
+doKeyPress(49)
+        doKeyPress(81)
+doKeyPress(49)
+        doKeyPress(81)
+doKeyPress(49)
+
+        doKeyPress(87)
+doKeyPress(49)
+doKeyPress(49)
+        doKeyPress(69)
+doKeyPress(49)
+        doKeyPress(87)
+doKeyPress(49)
+
+        doKeyPress(69)
+doKeyPress(49)
+        doKeyPress(69)
+doKeyPress(49)
+
+        doKeyPress(72)
+doKeyPress(49)
+        doKeyPress(72)
+doKeyPress(49)
+        doKeyPress(74)
+doKeyPress(49)
+        doKeyPress(74)
+doKeyPress(49)
+        doKeyPress(81)
+doKeyPress(49)
+        doKeyPress(81)
+doKeyPress(49)doKeyPress(49)
+
+        doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+        doKeyPress(72)
+doKeyPress(49)
+        doKeyPress(74)
+doKeyPress(49)
+        doKeyPress(74)
+doKeyPress(49)
+        doKeyPress(81)
+doKeyPress(49)
+        doKeyPress(81)
+doKeyPress(49)doKeyPress(49)
+
+        doKeyPress(87)
+doKeyPress(49)
+doKeyPress(49)
+        doKeyPress(69)
+doKeyPress(49)
+        doKeyPress(87)
+doKeyPress(49)
+
+        doKeyPress(81)
+doKeyPress(49)
+        doKeyPress(85)
+
+
+
+
+[DISABLE]
+
+
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1807618429</ID>
+              <Description>"Đế Vương"</Description>
+              <Color>FFFFFF</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>{$Lua}
+[ENABLE]
+       doKeyPress(78)
+doKeyPress(49)
+       doKeyPress(83)
+doKeyPress(49)
+       doKeyPress(68)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(68)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+
+
+       doKeyPress(72)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(68)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(68)
+doKeyPress(49)
+       doKeyPress(83)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+
+
+              doKeyPress(78)
+doKeyPress(49)
+       doKeyPress(83)
+doKeyPress(49)
+       doKeyPress(68)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(68)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+
+
+       doKeyPress(72)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(68)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(68)
+doKeyPress(49)
+       doKeyPress(83)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+
+
+
+              doKeyPress(78)
+doKeyPress(49)
+       doKeyPress(83)
+doKeyPress(49)
+       doKeyPress(68)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(68)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+
+
+       doKeyPress(72)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(68)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(68)
+doKeyPress(49)
+       doKeyPress(83)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+
+
+
+
+              doKeyPress(78)
+doKeyPress(49)
+       doKeyPress(83)
+doKeyPress(49)
+       doKeyPress(68)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(68)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+
+
+       doKeyPress(72)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(68)
+doKeyPress(49)
+       doKeyPress(70)
+doKeyPress(49)
+       doKeyPress(68)
+doKeyPress(49)
+       doKeyPress(83)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+
+
+
+
+
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+
+
+
+
+
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+
+
+
+
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+
+
+
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(82)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(69)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+
+
+
+
+
+
+              doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+
+
+
+
+
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+
+
+
+
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+       doKeyPress(71)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+doKeyPress(49)
+
+
+
+       doKeyPress(71)
+doKeyPress(49)
+       doKeyPress(72)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+doKeyPress(49)
+       doKeyPress(81)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(82)
+doKeyPress(49)
+       doKeyPress(87)
+doKeyPress(49)
+       doKeyPress(69)
+
+
+
+
+[DISABLE]
+
+
+
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1807618431</ID>
+              <Description>"Gió"</Description>
+              <Color>FFFFFF</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+//mã từ đây đến '[DISABLE]' sẽ được sử dụng để kích hoạt cheat
+
+{$lua}
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_H)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_G)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_J)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_H)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_J)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_H)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_G)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+
+
+for i = 0,0,1
+do
+  if isKeyPressed(VK_ESCAPE) then
+    break
+  end
+end
+[DISABLE]
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1807618432</ID>
+              <Description>"Nơi Này Có Anh V2"</Description>
+              <Color>FFFFFF</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+//mã từ đây đến '[DISABLE]' sẽ được sử dụng để kích hoạt cheat NTLDuc
+
+{$lua}
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_R)
+doKeyPress(VK_T)
+doKeyPress(VK_F)
+doKeyPress(VK_H)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_R)
+doKeyPress(VK_T)
+doKeyPress(VK_G)
+doKeyPress(VK_J)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_R)
+doKeyPress(VK_T)
+doKeyPress(VK_H)
+doKeyPress(VK_D)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_Y)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_W)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_H)
+doKeyPress(VK_E)
+doKeyPress(VK_W)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_R)
+doKeyPress(VK_T)
+doKeyPress(VK_F)
+doKeyPress(VK_H)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_R)
+doKeyPress(VK_T)
+doKeyPress(VK_G)
+doKeyPress(VK_J)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_R)
+doKeyPress(VK_T)
+doKeyPress(VK_H)
+doKeyPress(VK_D)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_Y)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_W)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_H)
+doKeyPress(VK_E)
+doKeyPress(VK_W)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+
+
+for i = 0,0,1
+do
+  if isKeyPressed(VK_ESCAPE) then
+    break
+  end
+end
+
+
+
+[DISABLE]
+//mã từ đây cho đến hết mã sẽ được sử dụng để vô hiệu hóa cheat NTLDuc
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1807618433</ID>
+              <Description>"Độ Ta Không Độ Nàng"</Description>
+              <Color>FFFFFF</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+//mã từ đây đến '[DISABLE]' sẽ được sử dụng để kích hoạt cheat NTLDuc
+
+{$lua}
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_Y)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_Y)
+doKeyPress(VK_1)
+doKeyPress(VK_Y)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_R)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_H)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_H)
+doKeyPress(VK_1)
+doKeyPress(VK_H)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_Y)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_Y)
+doKeyPress(VK_1)
+doKeyPress(VK_Y)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_R)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_T)
+doKeyPress(VK_1)
+doKeyPress(VK_H)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_H)
+doKeyPress(VK_1)
+doKeyPress(VK_H)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_E)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_W)
+doKeyPress(VK_1)
+doKeyPress(VK_Q)
+doKeyPress(VK_1)
+doKeyPress(VK_H)
+
+
+for i = 0,0,1
+do
+  if isKeyPressed(VK_ESCAPE) then
+    break
+  end
+end
+
+ 
+ 
+[DISABLE]
+//mã từ đây cho đến hết mã sẽ được sử dụng để vô hiệu hóa cheat NTLDuc
+</AssemblerScript>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1807618434</ID>
+              <Description>"Giga Chad Theme"</Description>
+              <Color>FFFFFF</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+//mã từ đây đến '[DISABLE]' sẽ được sử dụng để kích hoạt cheat NTLDuc
+
+{$lua}
+doKeyPress(VK_M)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_M)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_M)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_S)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_A)
+doKeyPress(VK_1)
+doKeyPress(VK_M)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_M)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_M)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_S)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_A)
+doKeyPress(VK_1)
+doKeyPress(VK_M)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_M)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_M)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_S)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_A)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_M)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_M)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_C)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_M)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_M)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_M)
+doKeyPress(VK_1)
+doKeyPress(VK_1)
+doKeyPress(VK_M)
+
+for i = 0,0,1
+do
+  if isKeyPressed(VK_ESCAPE) then
+    break
+  end
+end
+
+ 
+ 
+[DISABLE]
+//mã từ đây cho đến hết mã sẽ được sử dụng để vô hiệu hóa cheat NTLDuc
+</AssemblerScript>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+</CheatTable>

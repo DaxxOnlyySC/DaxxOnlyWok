@@ -1,0 +1,4360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable>
+  <CheatEntries>
+    <CheatEntry>
+      <ID>41530</ID>
+      <Description>";-;"</Description>
+      <Options moHideChildren="1"/>
+      <Color>FFFF00</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+//Script By Hùng 746 + Nhân
+[DISABLE]
+//Script By Hùng 746 + Nhân
+</AssemblerScript>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>41531</ID>
+          <Description>"Thay Đổi Bình Sơn Thành Chỉnh Sửa"</Description>
+          <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">12239:Bình Sơn
+10500:Máy Chỉnh Sửa
+12005:Kiếm Năng Lượng
+12821:Áo Đá Bóng
+11616:Búa Titan
+10501:Máy tổ hợp mô hình
+11100:Thiết bị sửa máy (cầm tay)
+11070:Cờ Lê
+</DropDownList>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>FFFF00</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>"libiworld.dll"+EB4440</Address>
+          <Offsets>
+            <Offset>0</Offset>
+            <Offset>BF3C</Offset>
+            <Offset>8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>379611</ID>
+          <Description>"Đổi ID Khối MCS "</Description>
+          <Options moHideChildren="1"/>
+          <Color>FFFF00</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//suxinh
+[DISABLE]
+//suxinh
+</AssemblerScript>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>379612</ID>
+              <Description>"Khối Phá"</Description>
+              <Options moHideChildren="1"/>
+              <Color>FFFF00</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+//Script By Hùng 746
+[DISABLE]
+//Script By Hùng 746
+</AssemblerScript>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>379613</ID>
+                  <Description>"Boom"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // sh//suxinhould be//suxinh unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],342
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379614</ID>
+                  <Description>"Boom-2"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],343
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379615</ID>
+                  <Description>"Dứa Làm Lag"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#1049
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>379617</ID>
+              <Description>"Trứng"</Description>
+              <Options moHideChildren="1"/>
+              <Color>FFFF00</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+//Script By Hùng 746
+[DISABLE]
+//Script By Hùng 746
+</AssemblerScript>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>379618</ID>
+                  <Description>"Trứng Ma Lực"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],3B6
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379619</ID>
+                  <Description>"Trứng Sóc Bay"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],3B7
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379620</ID>
+                  <Description>"Trứng Kỳ Lân"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],3B8
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379621</ID>
+                  <Description>"Trứng Chocobo"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],3B9
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379622</ID>
+                  <Description>"Trứng Voi Baby"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],3BA
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379623</ID>
+                  <Description>"Trứng Sư Tử Biển"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],3BB
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379624</ID>
+                  <Description>"Trứng Thần Thú Mèo"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],3BC
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379625</ID>
+                  <Description>"Trứng Thần Mã"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],3BD
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379626</ID>
+                  <Description>"Trứng Hamster"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],3BE
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379627</ID>
+                  <Description>"Trứng Thần Thú Rồng"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],708
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379628</ID>
+                  <Description>"Trứng Thần Thú Trăng"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],709
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379629</ID>
+                  <Description>"Trứng Thần Thú Xe Tuần Lộc"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],70A
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379630</ID>
+                  <Description>"Trứng Thần Thú Cá Voi"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],70B
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379631</ID>
+                  <Description>"Trứng Bộ bộ liên hoa"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#1804
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>379632</ID>
+              <Description>"Totem"</Description>
+              <Options moHideChildren="1"/>
+              <Color>FFFF00</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+//Script By Hùng 746
+[DISABLE]
+//Script By Hùng 746
+</AssemblerScript>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>379633</ID>
+                  <Description>"Totem cung thủ lưu huỳnh"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],2E9
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379634</ID>
+                  <Description>"Totem dã nhân"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],385
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379635</ID>
+                  <Description>"Totem bé dã nhân"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],386
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379636</ID>
+                  <Description>"Totem thợ săn dã nhân"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],387
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379637</ID>
+                  <Description>"Totem nhện"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],388
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1337209060</ID>
+                  <Description>"Totem trứng boom"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],38A
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379639</ID>
+                  <Description>"Totem dung nham cự nhân"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],38C
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379640</ID>
+                  <Description>"Totem cung thủ lưu huỳnh"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],38D
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379641</ID>
+                  <Description>"Totem gà"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],38E
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379642</ID>
+                  <Description>"Totem bò"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],38F
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379643</ID>
+                  <Description>"Totem ton ton"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],390
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379644</ID>
+                  <Description>"Totem dê"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],391
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379645</ID>
+                  <Description>"Totem sói"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],393
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379646</ID>
+                  <Description>"Totem flamas"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],395
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379647</ID>
+                  <Description>"Totem viễn cổ hắc long"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],396
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>379648</ID>
+              <Description>"Paste Nhanh"</Description>
+              <Options moHideChildren="1"/>
+              <Color>FFFF00</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+//Script By Hùng 746
+[DISABLE]
+//Script By Hùng 746
+</AssemblerScript>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>379649</ID>
+                  <Description>"Lửa"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],1F4
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379650</ID>
+                  <Description>"Dung nham"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],6
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379651</ID>
+                  <Description>"Nước"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#4
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379652</ID>
+                  <Description>"Cát"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#106
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379653</ID>
+                  <Description>"Mật Ong"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#12
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379654</ID>
+                  <Description>"Cát Lún Khô"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#14
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379655</ID>
+                  <Description>"Chất Độc Mạnh"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#18
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379656</ID>
+                  <Description>"Khối đá sự  sống"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#140
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379657</ID>
+                  <Description>"Khối đá dũng khí"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],8D
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379658</ID>
+                  <Description>"Khối đã trí tuệ"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],8E
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379659</ID>
+                  <Description>"Quả thần"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],24B
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379660</ID>
+                  <Description>"Kiếm lửa hỏng"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],24C
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379661</ID>
+                  <Description>"Mắt người đá"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],24D
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379662</ID>
+                  <Description>"Rương trừ đồ"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#801
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379663</ID>
+                  <Description>"Khối kc"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#408
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379664</ID>
+                  <Description>"Khối đá khổng tước"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#409
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379665</ID>
+                  <Description>"Khối vàng"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#410
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379666</ID>
+                  <Description>"Khối đồng horas"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#449
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379667</ID>
+                  <Description>"Khối graviti horas"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#450
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379668</ID>
+                  <Description>"Khối đồng"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#456
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379669</ID>
+                  <Description>"Khối titan"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#457
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379670</ID>
+                  <Description>"Khối than"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#416
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379671</ID>
+                  <Description>"Khối sắt"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#411
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379672</ID>
+                  <Description>"Khối tinh năng"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#415
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379673</ID>
+                  <Description>"Khối Vuông Sáng"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#997
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379674</ID>
+                  <Description>"Tưởng không khí-có thể nhìn xuyên thủng"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#1018
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379675</ID>
+                  <Description>"Điểm hồi sinh cá nhân"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#1079
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379676</ID>
+                  <Description>"Khối Điểm"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#1039
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379677</ID>
+                  <Description>"Nhực thần"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#593
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379678</ID>
+                  <Description>"Tổ Vật Quyền Lực Loại 1"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#1043
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379679</ID>
+                  <Description>"Tổ Vật Quyền Lực Loại 2"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#1044
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379680</ID>
+                  <Description>"Khối Vuông Sáng"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#997
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379681</ID>
+                  <Description>"Đá Tảng-Tấm Thép"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#964
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379682</ID>
+                  <Description>"Đá Tảng-Bê Tông"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#960
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1337209061</ID>
+                  <Description>"Đá Tảng-Đất Vụn"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#961
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1337209062</ID>
+                  <Description>"Đá Tảng-Băng Cứng"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#963
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379685</ID>
+                  <Description>"Đá Tảng Trắng"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#962
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>379686</ID>
+              <Description>"Khối linh tinh"</Description>
+              <Options moHideChildren="1"/>
+              <Color>FFFF00</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+//Script By Hùng 746
+[DISABLE]
+//Script By Hùng 746
+</AssemblerScript>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>379687</ID>
+                  <Description>"Đàn piano"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],2D6
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379688</ID>
+                  <Description>"Túi ngủ"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],246
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379689</ID>
+                  <Description>"Dây điện đỏ"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],3F1
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1337209063</ID>
+                  <Description>"Máy nhân bản sinh vật"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],438
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379691</ID>
+                  <Description>"Mô hình bàn chế tạo cũ"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],57C
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379692</ID>
+                  <Description>"Điều khiển thời tiết"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],57B
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379693</ID>
+                  <Description>"Thiết bị trọng lực"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],57A
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379694</ID>
+                  <Description>"Chuồng thú cưng"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],57D
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379695</ID>
+                  <Description>"Hộp nhạc"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],578
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379696</ID>
+                  <Description>"Trigger"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],40D
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379697</ID>
+                  <Description>"Bảng Cảm Áp Tiếp Xúc"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],2C7
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379698</ID>
+                  <Description>"Nút Tiếp Xúc"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],2CB
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379699</ID>
+                  <Description>"Cần Gạt"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],2D4
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379700</ID>
+                  <Description>"Tay Kéo Đẩy"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],2CE
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1337209064</ID>
+                  <Description>"Tay Robot"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],2CF
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379702</ID>
+                  <Description>"Thiết Bị Ném"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],2D2
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379703</ID>
+                  <Description>"Đánh dấu số 0"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#1013
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379704</ID>
+                  <Description>"Phiên bản đã hết hạn,hãy cập nhập phiên bản mới nhât"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#30
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379705</ID>
+                  <Description>"Phiên bản đã hết hạn,hãy cập nhập phiên bản mới nhât"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#13
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379706</ID>
+                  <Description>"Rương tinh xảo"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#735
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>1337209065</ID>
+                  <Description>"Rương hoàng kim"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#736
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379708</ID>
+                  <Description>"Khối caramel"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#559
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379709</ID>
+                  <Description>"Ghế sofa kiểu âu"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#1692
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379710</ID>
+                  <Description>"Biền tắm hiện đại"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#1606
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379711</ID>
+                  <Description>"Toilet hiện đại"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#1605
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379712</ID>
+                  <Description>"Hang đôn hoàng"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#1748
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379713</ID>
+                  <Description>"Có thể sự dụng phù điêu bay đôn hoang sau khi mở k"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#1747
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379714</ID>
+                  <Description>"Map khối dịch chuyển"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#1100
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379715</ID>
+                  <Description>"Giường cố tích"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#1622
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379716</ID>
+                  <Description>"Ghế sofa cố tích"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#1623
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379717</ID>
+                  <Description>"Cửa số cố tích"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#1640
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379718</ID>
+                  <Description>"Bánh kem sinh nhật"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#980
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379719</ID>
+                  <Description>"Sô Pha Gỗ cây ăn quả"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#967
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379720</ID>
+                  <Description>"Lò Sưởi Nâu"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#968
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379721</ID>
+                  <Description>"Sô Pha Gỗ Thông"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#977
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379722</ID>
+                  <Description>"Lò Sưởi Đen"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#978
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379723</ID>
+                  <Description>"Sô Pha Bạch Dương"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#972
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379724</ID>
+                  <Description>"Lò Sưởi Trắng"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#973
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379725</ID>
+                  <Description>"Khối Vận Chuyển Lõi"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#1140
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379726</ID>
+                  <Description>"Khối Vận Chuyển"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#1141
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379727</ID>
+                  <Description>"Khối tàn hình"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+mov [eax+2C],#1999
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+  
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>379728</ID>
+              <Description>"Cây Ảo"</Description>
+              <Options moHideChildren="1"/>
+              <Color>FFFF00</Color>
+              <VariableType>Auto Assembler Script</VariableType>
+              <AssemblerScript>[ENABLE]
+//mã từ đây đến '[DISABLE]' sẽ được sử dụng để kích hoạt gian lận
+
+
+ 
+ 
+[DISABLE]
+//mã từ đây đến cuối mã sẽ được sử dụng để vô hiệu hóa gian lận
+</AssemblerScript>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>379729</ID>
+                  <Description>"亗Cây Ăn Quả亗"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C)
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+  mov [eax+2C],#1472
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379730</ID>
+                  <Description>"亗Cây Thông亗"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C)
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+  mov [eax+2C],#1473
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379731</ID>
+                  <Description>"亗Cây Bạch Dương亗"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C)
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+  mov [eax+2C],#1474
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379732</ID>
+                  <Description>"亗Cây Tuyết Tùng亗"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C)
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+  mov [eax+2C],#1475
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379733</ID>
+                  <Description>"亗Cây Trinh Nam亗"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C)
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+  mov [eax+2C],#1476
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>379734</ID>
+                  <Description>"亗Cây Óc Chó亗"</Description>
+                  <Color>FFFF00</Color>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+aobscanmodule(INJECT,libiworld.dll,0F 11 40 2C 0F 10 41 3C)
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+  mov [eax+2C],#1477
+
+code:
+  movups xmm0,[eax+2C]
+  movups xmm0,[ecx+3C]
+  jmp return
+
+INJECT:
+  jmp newmem
+  nop 3
+return:
+registersymbol(INJECT)
+
+[DISABLE]
+
+INJECT:
+  db 0F 11 40 2C 0F 10 41 3C
+
+unregistersymbol(INJECT)
+dealloc(newmem)
+</AssemblerScript>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+</CheatTable>
